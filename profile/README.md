@@ -21,11 +21,7 @@ PandaFS is a simple **distributed file system** based on the **Master-Slave arch
 ---
 
 ##  Architecture  
+<img width="923" alt="Screenshot 2025-03-08 at 4 31 51 AM" src="https://github.com/user-attachments/assets/7736d062-de24-4039-a6b3-1ca18500987c" />
 
-PandaFS follows a **Master-Slave architecture**:  
-
-- **Master Node**: Manages metadata, replication, and client requests.  
-- **Slave Nodes**: Store actual data and serve client read/write operations.  
-- **Clients**: Interact with the system using a simple gRPC API.  
 
 ---
